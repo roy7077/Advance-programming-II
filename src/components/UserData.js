@@ -11,13 +11,18 @@ const UserData = ({ users }) => {
   return (
     <>
       {users.map((curUser) => {
-        const { id, problem,link,code,lecture } = curUser;
+        const { id, problem,problemlink,codelink,lecture } = curUser;
         return (
           <tr key={id}>
             <td>{id}</td>
             <td>{problem}</td>
             <td>
-              <Link to={link} target='_blank'>
+              <Link to={problemlink} target='_blank'>
+                Problem Link
+              </Link>
+            </td>
+            <td>
+              <Link to={codelink} target='_blank'>
                 <img 
                 style={{height:'40px',width:'45px'}}
                 src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png"

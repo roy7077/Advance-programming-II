@@ -7,10 +7,11 @@ const BasicTable = ({data}) => {
         <table>
             <thead>
                 <tr>
-                    <th>id</th>
+                    <th>S.No</th>
                     <th>Problem Name</th>
+                    <th>Problem Link</th>
                     <th>Code</th>
-                    <th>Viedo solution</th>
+                    <th>Viedo Solution</th>
                 </tr>
             </thead>
             <tbody>
