@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+/* Add this to your App.css or a new CSS file */
+
+table, th, td {    
+  margin-left: auto;  
+  margin-right: auto;  
+  border-collapse: collapse;    
+  text-align: center;    
+  }    
+
+table {
+  width: 80%; /* Adjust the width as needed */
+  border-collapse: collapse;
+  margin-top: 20px; /* Add margin at the top as needed */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th {
+  background-color: #f2f2f2;
+}
+.div-sagar {
+  text-align: center; /* Center the content horizontally */
+  border: 1px solid #000; /* Add a border with 1px width and black color (adjust as needed) */
+  width: 80%; /* Set the width to 50% of the parent container */
+  margin: 10px auto; /* Center the container using auto margins */
+  padding: 10px; /* Add padding around the border (adjust as needed) */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.heading {
+  margin: 0; /* Remove default margin from the heading */
+}
+/* 
+.div-sagar{
+  width: 70%;
+}
+.heading{
+  width: 70%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  border: 1px solid black;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+} */
