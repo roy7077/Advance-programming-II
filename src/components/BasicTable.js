@@ -12,7 +12,7 @@ const BasicTable = ({data}) => {
                     <th>Problem Name</th>
                     <th>Problem Link</th>
                     <th>Code</th>
-                    <th>Viedo Solution</th>
+                    {/* <th>Viedo Solution</th> */}
                 </tr>
             </thead>
             <tbody>

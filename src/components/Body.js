@@ -1,5 +1,5 @@
 import React from 'react'
-import {chapter1,chapter2,chapter3,chapter4 } from '../conts.js/Data'
+import {array,DC,Heap,Greedy,trees,Backtracking,dp,graph } from '../conts.js/Data'
 import BasicTable from './BasicTable'
 import '../Style.css/body.css'
 
@@ -17,36 +17,47 @@ const Body = () => {
       <div className='div-sagar-1'>
       <h1 className='heading'>Arrays, Stacks, Queues and linked list</h1>
       </div>
-      <BasicTable data={chapter1}/>
+      <BasicTable data={array}/>
 
       <div className='div-sagar-1'>
       <h1 className='heading'>Divide and conquer</h1>
       </div>
-      <BasicTable data={chapter2}/>
+      <BasicTable data={DC}/>
        
       <div className='div-sagar-1'>
-      <h1 className='heading'>Greedy</h1>
+      <h1 className='heading'>Heap</h1>
       </div>
-      <BasicTable data={chapter3}/>
+      <BasicTable data={Heap}/>
       
       {/* UNIT - 2 */}
       <div className='div-sagar'>
       <h1 className='heading'>UNIT - 2</h1>
       </div>
       <div className='div-sagar-1'>
+      <h1 className='heading'>Greedy</h1>
+      </div>
+      <BasicTable data={Greedy}/>
+
+      <div className='div-sagar-1'>
       <h1 className='heading'>Trees</h1>
       </div>
-      <BasicTable data={chapter4}/>
-
+      <BasicTable data={trees}/>
+       
       <div className='div-sagar-1'>
       <h1 className='heading'>Backtracking</h1>
       </div>
-      <BasicTable data={chapter2}/>
-       
+      <BasicTable data={Backtracking}/>
+
       <div className='div-sagar-1'>
-      <h1 className='heading'>Dynamic Programming</h1>
+      <h1 className='heading'>Graph</h1>
       </div>
-      <BasicTable data={chapter3}/>
+      <BasicTable data={graph}/>
+
+
+      <div className='div-sagar-1'>
+      <h1 className='heading'>Dynammic programming</h1>
+      </div>
+      <BasicTable data={dp}/>
     </div>
   )
 }

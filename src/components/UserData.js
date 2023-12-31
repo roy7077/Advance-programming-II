@@ -30,14 +30,14 @@ const UserData = ({ users }) => {
                 />
               </Link>
             </td>
-            <td>
+            {/* <td>
               <Link to={lecture} target='_blank'>
                 <img 
                 style={{height:'35px',width:'35px'}}
                 src="https://static-00.iconduck.com/assets.00/youtube-icon-1024x725-gs0uvk9b.png"
                 />
               </Link>
-            </td>
+            </td> */}
           </tr>
         );
       })}
