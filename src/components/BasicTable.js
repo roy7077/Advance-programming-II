@@ -1,6 +1,7 @@
 import React from 'react'
 import UserData from './UserData'
-import '../App.css'
+import '../Style.css/tables.css'
+
 const BasicTable = ({data}) => {
   return (
     <div className='.table-container'>

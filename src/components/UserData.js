@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../Style.css/tables.css'
 
 const UserData = ({ users }) => {
   // Check if users is an array before using map
