@@ -17,7 +17,7 @@ const UserData = ({ users }) => {
             <td>{id}</td>
             <td>{problem}</td>
             <td>
-              <Link to={problemlink} target='_blank'>
+              <Link to={problemlink} target='_blank' className='link'>
                 Problem Link
               </Link>
             </td>
